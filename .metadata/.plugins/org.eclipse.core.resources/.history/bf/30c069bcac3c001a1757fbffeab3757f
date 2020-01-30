@@ -1,0 +1,17 @@
+package com.ansp.microservices.employee.exception;
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.RestController;
+
+@ControllerAdvice
+@RestController
+public class CustomResponseEntityExceptionHandler {	
+
+	public final ResponseEntity<Object> handleAllExceptions(Exception ex, WebRequest request) { 
+	 
+	  ExceptionResponse exceptionResponse = new ExceptionResponse(LocalDateTime.now(), ex.getMessage(), 
+	 
+	    request.getDescription(false)); 
+	 
+	  return new ResponseEntity(exceptionResponse, HttpStatus.INTERNAL_SERVER_ERROR); 
+}

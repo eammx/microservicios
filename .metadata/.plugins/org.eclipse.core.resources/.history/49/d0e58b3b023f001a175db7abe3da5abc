@@ -1,0 +1,5 @@
+package com.ansp.microservices.integration;
+
+public interface EmployeeProxy {
+
+}

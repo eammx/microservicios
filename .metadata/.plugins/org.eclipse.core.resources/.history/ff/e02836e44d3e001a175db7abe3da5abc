@@ -1,0 +1,5 @@
+package com.ansp.microservices.entities;
+
+public class Permission {
+
+}

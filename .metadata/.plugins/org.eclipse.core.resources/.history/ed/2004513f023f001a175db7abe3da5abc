@@ -1,0 +1,6 @@
+package com.ansp.microservices.integration;
+
+@FeignClient(name="employee-service", url="http://localhost:8080 ") 
+public interface EmployeeProxy {
+
+}

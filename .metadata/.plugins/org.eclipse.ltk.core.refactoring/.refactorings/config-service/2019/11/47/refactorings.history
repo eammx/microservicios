@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.htc.microservices.confih&apos; to &apos;com.htc.microservices.config&apos;&#x0D;&#x0A;- Original project: &apos;config-service&apos;&#x0D;&#x0A;- Original element: &apos;config-service/src/main/java/com.htc.microservices.confih&apos;&#x0D;&#x0A;- Renamed element: &apos;config-service/src/main/java/com.htc.microservices.config&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.htc.microservices.confih&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.htc.microservices.confih" name="com.htc.microservices.config" qualified="false" references="true" stamp="1574046516386" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.ansp.microservices.permission&apos; to &apos;com.ansp.microservices.eureka&apos;&#x0D;&#x0A;- Original project: &apos;eureka-service&apos;&#x0D;&#x0A;- Original element: &apos;eureka-service/src/main/java/com.ansp.microservices.permission&apos;&#x0D;&#x0A;- Renamed element: &apos;eureka-service/src/main/java/com.ansp.microservices.eureka&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.ansp.microservices.permission&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.ansp.microservices.permission" name="com.ansp.microservices.eureka" qualified="false" references="true" stamp="1579912306300" textual="false" version="1.0"/>
+</session>

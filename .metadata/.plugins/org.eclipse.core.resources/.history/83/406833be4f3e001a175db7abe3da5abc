@@ -1,0 +1,6 @@
+package com.ansp.microservices.services;
+
+@Services
+public class PermissionService {
+
+}

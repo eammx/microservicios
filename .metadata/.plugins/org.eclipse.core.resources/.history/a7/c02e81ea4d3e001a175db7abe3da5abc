@@ -1,0 +1,12 @@
+package com.ansp.microservices.entities;
+
+public class Permission {
+	@Id public String id;
+	public String reason;
+	public Integer emplooyeeId;
+	public LocalDateTime date;
+	public String time;
+	public LocalDateTime datePermission;
+	public String reasonRejection;
+	public String status; 
+}

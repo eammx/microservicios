@@ -1,0 +1,5 @@
+package com.htc.microservices.employee.exception;
+
+public class ExceptionResponse {
+
+}

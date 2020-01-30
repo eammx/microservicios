@@ -1,0 +1,5 @@
+package com.ansp.microservicesemployees.service;
+
+public class EmployeeService {
+
+}

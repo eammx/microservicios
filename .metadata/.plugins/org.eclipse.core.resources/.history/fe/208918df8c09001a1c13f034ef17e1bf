@@ -1,0 +1,13 @@
+package com.htc.microservices.employee;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class EmployeeServiceV4Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(EmployeeServiceV4Application.class, args);
+	}
+
+}
