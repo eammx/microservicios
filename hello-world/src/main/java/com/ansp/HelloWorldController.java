@@ -8,6 +8,6 @@ public class HelloWorldController {
 
 	@RequestMapping(method = RequestMethod.GET,path = "/hello-world")
 	public String helloWorld() {
-		return "Funciona";
+		return "Prueba de mi proyecto";
 	}
 }
