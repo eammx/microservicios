@@ -2,26 +2,41 @@ package com.ansp.microservices.entities;
 
 import java.time.LocalDateTime;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+
 import org.springframework.data.annotation.Id;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+@ApiModel
+@Entity
 public class Permission {
-	@Id public String id;
+	@ApiModelProperty
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY) 
+	public Integer id;
+	@ApiModelProperty
 	public String reason;
+	@ApiModelProperty
 	public Integer emplooyeeId;
+	@ApiModelProperty
 	public LocalDateTime date;
+	@ApiModelProperty
 	public String time;
+	@ApiModelProperty
 	public LocalDateTime datePermission;
+	@ApiModelProperty
 	public String reasonRejection;
+	@ApiModelProperty
 	public String status;
 	
 	
-	public Permission() {
-		super();
-	}
-	public String getId() {
+	public Integer getId() {
 		return id;
 	}
-	public void setId(String id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	public String getReason() {

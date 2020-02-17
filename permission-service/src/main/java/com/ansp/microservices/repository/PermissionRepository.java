@@ -1,8 +1,9 @@
 package com.ansp.microservices.repository;
 
-import com.ansp.microservices.entities.Permission;
-import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.data.repository.CrudRepository;
 
-public interface PermissionRepository extends MongoRepository<Permission, String>{
+import com.ansp.microservices.entities.Permission;
+
+public interface PermissionRepository extends CrudRepository<Permission, String>{
 
 }

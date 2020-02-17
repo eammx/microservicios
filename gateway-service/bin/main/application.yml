@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+      - id: employee-service
+        uri: lb://employee-service
+        predicates:
+          - Path=/employees/**
+        filters:
+          - RewritePath=/employees/(?<path>.*), /$\{path}
+server:
+  port: 9000

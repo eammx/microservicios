@@ -1,3 +1,0 @@
-management.endpoints.web.exposure.include=*
-spring.application.name=employee-services
-spring.cloud.config.uri=http://localhost:8888

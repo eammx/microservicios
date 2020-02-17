@@ -1,5 +1,0 @@
-package com.ansp.microservices.repository;
-
-public class PermissionRepository extends MongoRepository<Permission, String>{
-
-}

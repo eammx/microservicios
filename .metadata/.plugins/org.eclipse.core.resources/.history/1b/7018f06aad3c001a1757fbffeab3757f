@@ -1,5 +1,0 @@
-package com.ansp.microservices.employee.exception;
-
-public class ExceptionResponse {
-
-}
